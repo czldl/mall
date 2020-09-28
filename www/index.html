@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title>Mall06</title>
+    <title>Mall09</title>
 
     <!-- un-comment this code to enable service worker
     <script>
@@ -61,6 +61,16 @@
     <!--公用的js-->
     <script src="areas/common/indexdb.js"></script>
     <script src="areas/common/common.js"></script>
+    <!--购物车-->
+    <link href="css/cart/cart.css" rel="stylesheet">
+    <script src="areas/cart/cart_controller.js"></script>
+    <script src="areas/cart/cart_service.js"></script>
+    <script src="areas/cart/cart_route.js"></script>
+    <!--个人中心-->
+    <link href="css/account/account.css" rel="stylesheet">
+    <script src="areas/account/account_controller.js"></script>
+    <script src="areas/account/account_route.js"></script>
+    <script src="lib/ngCordova/dist/ng-cordova.js"></script>
   </head>
   <body ng-app="starter">
     <ion-nav-view></ion-nav-view>
