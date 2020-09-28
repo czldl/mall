@@ -6,7 +6,7 @@ angular.module('category.controller', ['category.service'])
     //进入view时触发
     $scope.$on('$ionicView.enter', function (e) {
         getCategoryData();
-        $scope.getCategoryDetailData(100);
+        $scope.getCategoryDetailData(000);
     });
       //获取侧边栏数据
     function  getCategoryData(){

@@ -7,6 +7,10 @@ angular.module('category.service', [])
       getCategoryData: function() {
         var categoryData = [
           {
+            name: "最新图书",
+            typeNumber: '000'
+          },
+          {
             name: "潮流女装",
             typeNumber: '100'
           },
@@ -61,9 +65,26 @@ angular.module('category.service', [])
         return deferred.promise;
       },
       getCategoryDetailData:function(typeNumber){
-              var categoryDetailData=[];
-
-        if(typeNumber==100){
+          var categoryDetailData=[];
+          if(typeNumber==000){
+            categoryDetailData=[
+          {
+            name:"Android移动开发",
+            src:"img/category/b01.png",
+            typeNumber:'00001'
+          },
+          {
+            name:"响应式Web程序设计",
+            src:"img/category/b02.png",
+            typeNumber:'00002'
+          },
+          {
+            name:"SSH框架整合技术",
+            src:"img/category/b03.png",
+            typeNumber:'00003'
+          }];
+          }
+          else if(typeNumber==100){
           categoryDetailData=[
             {
               name:"毛呢大衣",

@@ -6,7 +6,8 @@ angular.module('route', [
   'guidePage.route',//引导页
   'tab.route',//导航栏
   'home.route',//商城首页
-  'category.route'//商品分类
+  'category.route',//商品分类
+  'goodsList.route'//商品列表
 ])
   .config(function($stateProvider, $urlRouterProvider) {
     // 当没有匹配到合适的路由之后默然跳转的url地址，还有就是项目默认启动的url地址
