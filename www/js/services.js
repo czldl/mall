@@ -35,6 +35,12 @@ angular.module('starter.services', [])
     name: 'Liu DongLiang',
     lastText: 'This is My Study and Teaching.',
     face: 'img/ldl.jpg'
+  }
+  , {
+    id: 6,
+    name: 'Liu Chang',
+    lastText: 'This is My Son.',
+    face: 'img/ldl.jpg'
   }];
 
   return {
