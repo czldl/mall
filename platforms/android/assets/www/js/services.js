@@ -38,9 +38,9 @@ angular.module('starter.services', [])
   }
   , {
     id: 6,
-    name: 'Liu Chang',
-    lastText: 'This is My Son.',
-    face: 'img/ldl.jpg'
+    name: 'Mall ',
+    lastText: 'This is My Hybird App: MALL.',
+    face: 'img/mall.png'
   }];
 
   return {
