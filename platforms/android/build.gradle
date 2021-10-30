@@ -309,3 +309,12 @@ for (def func : cdvPluginPostBuildExtras) {
 if (hasProperty('postBuildExtras')) {
     postBuildExtras()
 }
+/*
+android {
+    signingConfigs {
+        debug {
+            storeFile file('mykeystore.cert')
+        }
+    }
+}
+*/
