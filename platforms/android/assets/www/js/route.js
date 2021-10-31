@@ -4,7 +4,8 @@
 angular.module('route', [
   //注册子路由
   'guidePage.route',
-  'tab.route'
+  'tab.route',
+  'home.route'
 ])
   .config(function($stateProvider, $urlRouterProvider) {
     // 当没有匹配到合适的路由之后默然跳转的url地址，还有就是项目默认启动的url地址

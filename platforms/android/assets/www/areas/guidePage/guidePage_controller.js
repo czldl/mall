@@ -2,7 +2,7 @@
 引导页面控制器，包含业务逻辑代码
  */
 angular.module('guidePage.controller',[])
-  .controller('GuidePageCtrl', function ($scope, $state) {
+  .controller('GuidePageCtrl', function ($scope,$state) {
      //当幻灯片滑动时触发的事件回调函数
       $scope.slideHasChanged=function(index){
        //
