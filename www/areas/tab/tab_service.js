@@ -5,6 +5,7 @@ angular.module('tab.service', [])
   .factory('tabFty', function($http, $q, $window) {
       return {
         getAllData: function () {
+
         }
       }
   });
