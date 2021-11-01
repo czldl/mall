@@ -23,7 +23,7 @@ angular.module('guidePage.controller',[])
       }
     // 跳转到主页方法
     $scope.func_goHome=function(){
-      localStorage["isFirst"]=true;
+      localStorage["isFirst"]=false;
       $state.go('tab.home');
     }
 
