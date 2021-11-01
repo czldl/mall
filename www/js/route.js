@@ -2,11 +2,14 @@
  * 全局路由文件
  */
 angular.module('route', [
-  //注册子路由
-  'guidePage.route',
-  'tab.route',
-  'home.route',
+  'guidePage.route',//引导页
+  'tab.route',//导航标签页
+  'home.route',//商城首页
   'category.route',//商品分类
+  'goodsList.route',//商品列表
+  'details.route',//商品详情
+  'cart.route',//购物车
+  'account.route'//个人中心
 ])
   .config(function($stateProvider, $urlRouterProvider) {
     // 当没有匹配到合适的路由之后默然跳转的url地址，还有就是项目默认启动的url地址
