@@ -1,5 +1,5 @@
 /**
- * 商品列表路由
+ * 商品列表模块路由
  */
 angular.module('goodsList.route', ['goodsList.controller'])
   .config(function ($stateProvider) {

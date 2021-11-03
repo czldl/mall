@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\GitOps\GitOpsTest\zuyuan\webmallapp\platforms\android\CordovaLib\assets"/></dataSet><dataSet config="debug"><source path="C:\GitOps\GitOpsTest\zuyuan\webmallapp\platforms\android\CordovaLib\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\dll\Desktop\2020\HApp\mall\platforms\android\CordovaLib\assets"/></dataSet><dataSet config="debug"><source path="C:\Users\dll\Desktop\2020\HApp\mall\platforms\android\CordovaLib\src\debug\assets"/></dataSet></merger>

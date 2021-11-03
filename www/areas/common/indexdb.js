@@ -17,7 +17,7 @@ angular.module('indexdb', [])
       // 打开数据库连接
       open: function (func,fail) {
         var dbContent = window.indexedDB.open(db.dbName, db.dbVersion);
-        // 数据库打开请求的跟新回调函数
+        // 数据库打开请求的更新回调函数
         dbContent.onupgradeneeded = db.upgrade;
         // 数据库打开请求的失败回调函数
         dbContent.onerror = db.errorHandler;

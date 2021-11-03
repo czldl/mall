@@ -2,7 +2,7 @@
  * 导航标签服务
  */
 angular.module('tab.service', [])
-  .factory('tabFty', function($q, IndexdbJs) {
+  .factory('tabFty', function($http, $q, IndexdbJs) {
       return {
         getAllData: function () {
           var deferred = $q.defer();

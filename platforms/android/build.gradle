@@ -241,6 +241,7 @@ dependencies {
     // SUB-PROJECT DEPENDENCIES START
     debugCompile project(path: "CordovaLib", configuration: "debug")
     releaseCompile project(path: "CordovaLib", configuration: "release")
+    compile "com.android.support:support-v4:24.1.1+"
     // SUB-PROJECT DEPENDENCIES END
 }
 
@@ -263,13 +264,7 @@ gradle.taskGraph.whenReady { taskGraph ->
         }
     }
 }
-gradle.taskGraph.whenReady { taskGraph ->
-    taskGraph.getAllTasks().each() { task ->
-        if (task.name == 'validateReleaseSigning' || task.name == 'validateSigningRelease') {
-            promptForReleaseKeyPassword()
-        }
-    }
-}
+
 def addSigningProps(propsFilePath, signingConfig) {
     def propsFile = file(propsFilePath)
     def props = new Properties()
@@ -309,12 +304,3 @@ for (def func : cdvPluginPostBuildExtras) {
 if (hasProperty('postBuildExtras')) {
     postBuildExtras()
 }
-/*
-android {
-    signingConfigs {
-        debug {
-            storeFile file('mykeystore.cert')
-        }
-    }
-}
-*/

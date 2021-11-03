@@ -8,6 +8,14 @@ angular.module('goodsList.service', [])
       refreshGoodsList: function (message) {
         var obj_goodsListData = [
           {
+            name: 'HTML5混合App开发',
+            price: '50',
+            haoping: '100',
+            buy: '888',
+            productId: "4",
+            src: 'img/goodsList/b04.png'
+          },
+          {
             name: '轻舞飘絮 毛呢外套女秋冬款2015秋款女装韩版修身毛呢大衣女6868 粉色 L',
             price: '288',
             haoping: '100',
