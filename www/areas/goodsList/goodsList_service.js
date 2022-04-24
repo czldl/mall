@@ -8,12 +8,12 @@ angular.module('goodsList.service', [])
       refreshGoodsList: function (message) {
         var obj_goodsListData = [
           {
-            name: 'Android移动开发基础',
-            price: '38',
+            name: 'HTML5混合App开发+206004刘东良',
+            price: '50',
             haoping: '100',
-            buy: '733',
+            buy: '888',
             productId: "4",
-            src: 'img/goodsList/b01.png'
+            src: 'img/goodsList/b04.png'
           },
           {
             name: '轻舞飘絮 毛呢外套女秋冬款2015秋款女装韩版修身毛呢大衣女6868 粉色 L',

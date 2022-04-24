@@ -7,10 +7,6 @@ angular.module('category.service', [])
       getCategoryData: function() {
         var categoryData = [
           {
-            name: "最新图书",
-            typeNumber: '000'
-          },
-          {
             name: "潮流女装",
             typeNumber: '100'
           },

@@ -17,12 +17,36 @@
     <!-- 产品展示图 -->
     <div id="view">
       <div class="viewWarp">
-        <ul>
+        <!-- <ul>
           <li>
             <img src="img/details/detail01.jpg" alt="">
           </li>
         </ul>
-        <div class="viewText"><span>1</span>/6</div>
+        <div class="viewText"><span>1</span>/7</div> -->
+        <!--商品详情轮播图-->
+        <ion-slide-box class="detail-slide"  auto-play="100" >
+          <ion-slide>
+            <img ng-src="img/details/detail-slide-1.png">
+          </ion-slide>
+          <ion-slide>
+            <img ng-src="img/details/detail-slide-2.png">
+          </ion-slide>
+          <ion-slide>
+            <img ng-src="img/details/detail-slide-3.png">
+          </ion-slide>
+          <ion-slide>
+            <img ng-src="img/details/detail-slide-4.jpg">
+          </ion-slide>
+          <ion-slide>
+            <img ng-src="img/details/detail-slide-5.jpg">
+          </ion-slide>
+          <ion-slide>
+            <img ng-src="img/details/detail-slide-6.jpg">
+          </ion-slide>
+          <ion-slide>
+            <img ng-src="img/details/detail-slide-7.png">
+          </ion-slide>
+        </ion-slide-box>
       </div>
     </div>
     <!-- 产品选项 -->
@@ -33,7 +57,7 @@
     <div id="list">
       <div class="yixuan">
         <span>已选</span>
-        66651k女 m 1件
+        66651k女 m {{obj_goodsDetailInfo.number}}件
       </div>
       <div class="yanse clearBoth">
       <span class="floatLeft">颜色</span>
@@ -61,7 +85,7 @@
     <div id="otherInfo">
       <div class="songzhi">
         <span>送至</span>
-        <p>北京</p>
+        <p>206004 刘东良 滁州职业技术学院</p>
       </div>
       <div class="yunfei">
         <span>运费</span>

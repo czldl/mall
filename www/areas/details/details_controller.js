@@ -46,7 +46,7 @@ angular.module('details.controller', ['details.service'])
       prise: $scope.obj_goodsInfo.prise,
       color: "",
       size: "",
-      number: 1
+      number: 2
     }
     // 加入到购物车方法
     $scope.func_addToCart=function(){
