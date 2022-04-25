@@ -87,7 +87,7 @@ angular.module('details.controller', ['details.service'])
     function func_updateData(data){
       var promise = DetailsFty.updateData(data);
       promise.then(function () {
-          CommonJs.AlertPopup("添加购物车成功");
+          CommonJs.AlertPopup("添加购物车成功！");
         },
         function (e) {
           CommonJs.AlertPopup(e);

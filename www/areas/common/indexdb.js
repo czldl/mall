@@ -9,7 +9,7 @@ angular.module('indexdb', [])
     window.IDBCursor=window.IDBCursor||window.webkitIDBCursor|| window.msIDBCursor;
     var db={
       dbName: 'appdb',
-      dbVersion: 2046, //用小数会四舍五入
+      dbVersion: 2048, //用小数会四舍五入
       dbInstance: {},
       errorHandler: function (error) {
         console.log('error: ' + error.target.error.message);

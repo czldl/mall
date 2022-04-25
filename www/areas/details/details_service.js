@@ -2,7 +2,7 @@
  * 商品详情服务
  */
 angular.module('details.service', [])
-  .factory('DetailsFty', function($q,$window,IndexdbJs) {
+  .factory('DetailsFty', function($q, $window, IndexdbJs) {
       return {
        //更新购物车数据
         updateData: function (data) {
